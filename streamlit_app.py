@@ -50,7 +50,7 @@ else:
 
         # Generate an answer using the OpenAI API.
         stream = client.chat.completions.create(
-            model="gpt-3.5-turbo-16k",
+            model="gpt-35-turbo-16k",
             messages=messages,
             stream=True,
         )
